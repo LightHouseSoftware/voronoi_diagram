@@ -3,7 +3,7 @@ An example implementation of the algorithm for calculating and rendering the Vor
 
 ![Voronoi diagram](https://lhs-blog.info/wp-content/uploads/2020/06/voronoi_diagram.png "Voronoi diagram example")
 
-__Run example:__
+__Example code:__
 ```d
 import std.stdio;
 import std.random;
