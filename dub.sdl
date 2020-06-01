@@ -1,0 +1,5 @@
+name "voronoidiagram"
+description "An example implementation of the algorithm for calculating and rendering the Voronoi diagram."
+authors "Bagomot"
+license "ESL"
+dependency "dlib" version="~>0.19.0-beta1"
