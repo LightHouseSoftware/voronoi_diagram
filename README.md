@@ -19,7 +19,7 @@ void main() {
     auto img = image(width, height);
     auto sitesColor = Color4f(0.0f, 0.0f, 0.0f);
 
-	  Voronoi voronoi = new Voronoi(width, height, 100);
+    Voronoi voronoi = new Voronoi(width, height, 100);
     voronoi.toImage(img);
     //voronoi.drawSites(img, 3, sitesColor, true);
     img.savePNG("voronoi_diagram.png");
